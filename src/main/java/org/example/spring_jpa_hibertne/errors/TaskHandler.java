@@ -1,4 +1,4 @@
-package org.example.spring_jpa_hibertne.services;
+package org.example.spring_jpa_hibertne.errors;
 
 import org.example.spring_jpa_hibertne.entities.dto.ErrorDTO;
 import org.springframework.http.HttpStatus;

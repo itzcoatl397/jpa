@@ -13,8 +13,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("api/")
 @CrossOrigin
-
-@RestControllerAdvice
 public class TaskController {
 
 
