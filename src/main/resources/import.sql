@@ -6,3 +6,7 @@ VALUES (3, 'Reunión de equipo', 'Preparar agenda para la reunión', 'COMPLETED'
 
 INSERT INTO tasks (id, name, description, status, created_at)
 VALUES (4, 'Reparar servidor', 'Arreglar el servidor de producción', 'CANCELLED', NOW());
+
+
+INSERT INTO tasks (id, name, description, status, created_at)
+VALUES (1, 'Generar PDF', 'se solicita geberar  pdf', 'PENDING', NOW());

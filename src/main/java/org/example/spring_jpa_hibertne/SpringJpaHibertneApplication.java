@@ -35,7 +35,7 @@ public abstract class SpringJpaHibertneApplication implements CommandLineRunner 
         List<Person> personList = (List<Person>) repository.findAll();
         List<Tasks> tasksList =(List<Tasks>) taskRepository.findByStatus(TaskStatus.IN_PROGRESS);
 
-        Optional<Tasks> tasksList2 =  taskRepository.findById(1L);
+        Optional<Tasks> tasksList2 =  taskRepository.findById(2L);
 
         personList.forEach(person -> System.out.println(person.toString()));
 
